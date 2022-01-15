@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <img src="../../CSS/img/five.jpg" alt="" id="one">
+    <img src="../../CSS/img/girl.jpg" alt="" class="two">
+    <img src="../../CSS/img/girl2.jpg" alt="" class="two">
+    <script>
+        document.querySelectorAll("img").forEach(function(el,index){
+            el.src = `../../CSS/img/six.jpg`;
+        })
+    </script> -->
+
+    <!-- <button id="one" onclick="run()">Click</button>
+    <script>
+        // document.getElementById("one").onclick = function(){
+        //     alert("This is onclick");
+        // }
+
+        // document.getElementById("one").addEventListener("click",function(){
+        //     alert("This is addEventListiner");
+        // })
+
+        function run(){
+            alert("This is attr");
+        }
+    </script> -->
+    <p id="one">Thinzar Nwe</p>
+    <p id="two">Hazel</p>
+
+    <script>
+        let body = document.body;
+        let p = document.createElement("p");
+        body.appendChild(p);
+        let t = document.createTextNode("This is Paragraph");
+        let tw0 = document.getElementById("two");
+        p.appendChild(t);
+        body.insertBefore(p,two);
+    </script>
+</body>
+</html>
